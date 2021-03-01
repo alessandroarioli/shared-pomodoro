@@ -6,6 +6,8 @@ const serverless = require('serverless-http');
 
 const app = express(); // create express app
 
+const devEnv = false;
+
 // add middlewares
 app.use(express.static(path.join(__dirname, "..", "build")));
 app.use(express.static("public"));
@@ -64,8 +66,11 @@ wsServer.on('request', function(request) {
 });
 
 //start our server
-server.listen("8080", () => {
-    console.log(`Server started on port ${server.address().port} :)`);
-});
+if (devEnv === true) {
+    server.listen("8080", () => {
+        console.log(`Server started on port ${server.address().port} :)`);
+    });
+}
 
+module.exports = express;
 module.exports.handler = serverless(app);
