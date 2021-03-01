@@ -1,0 +1,118 @@
+$offset: 187;
+$duration: 1.2s;
+
+.timer {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.timer-display {
+  color: $lt-green;
+  font-size: $base-font-size*3;
+  //margin-top: 60px;
+  //margin-left: 10px;
+  text-align: center;
+}
+
+svg#gradient {
+  width: 100px;
+  height: 40px;
+  vertical-align: bottom;
+  pointer-events: none;
+  text {
+    fill: url(#linearGradient);
+  }
+}
+
+#status {
+  text-align: center;
+  height: 20px;
+  margin-top: -30px;
+  margin-bottom: 30px;
+  color: lighten($lt-gray, 20%);
+}
+
+.inner-circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-48%, -73.5%);
+}
+
+.outer-circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-48%, -73.5%);
+  z-index: 1;
+}
+
+//progress bar styles
+.progress-color0 {
+  fill: url(#greenGradient);
+}
+
+.progress-color1 {
+  fill: $lt-gray;
+}
+
+.spinner-container {
+  position: absolute;
+  z-index: 2;
+  left: 50%;
+  top: 50%;
+  margin-top: -40px;
+  transform: translate(-50%, -50%);
+}
+
+.spinner-mask {
+  position: absolute;
+  background-color: $drk-gray;
+  height: 45px;
+  width: 50px;
+  margin-top: 181px;
+  left: 200px;
+  transform: translate(-50%,-50%);
+  z-index: 2;
+}
+
+.spinner {
+  transform: rotate(150deg);
+  animation: rotator $duration linear infinite;
+}
+
+@keyframes rotator {
+  0% { transform: rotate(150deg); }
+  20% { transform: rotate(200deg); }
+  100% { transform: rotate(390deg); }
+}
+
+.spinning {
+  stroke-dasharray: $offset;
+  stroke-dashoffset: 185;
+  transform-origin: center;
+  animation:
+          dash $duration infinite,
+          colors $duration infinite;
+}
+
+@keyframes colors {
+  0% { stroke: $lt-green; }
+  50% { stroke: $green; }
+  100% { stroke: $lt-green; }
+}
+
+@keyframes dash {
+  0% {
+    stroke-dashoffset: 185;
+  }
+  50% {
+    stroke-dashoffset: 175;
+  }
+  100% {
+    stroke-dashoffset: 185;
+  }
+}

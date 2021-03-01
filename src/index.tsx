@@ -1,12 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import './index.scss';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {LMWebSocket} from "./logic/websocket/websocket";
+
+const webSocket = new LMWebSocket('ws://localhost:8080/')
+
+webSocket.listen()
+
+window.onbeforeunload = () => {
+  return "";
+}
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App websocket={webSocket} />
   </React.StrictMode>,
   document.getElementById('root')
 );

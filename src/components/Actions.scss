@@ -1,0 +1,65 @@
+#action-title {
+  position: absolute;
+  font-size: $base-font-size/1.5;
+  left: 50%;
+  margin-top: 0;
+  transform: translate(-50%,-50%);
+  background: $drk-gray;
+  padding: 5px 20px;
+  border-radius: 20px;
+  border: solid lighten($lt-gray, 20%) 1px;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: lighten($lt-gray, 20%);
+  div {
+
+    padding-bottom: 0;
+    flex: 1;
+  }
+}
+
+.set-timer,
+.set-break {
+  padding-top: 20px;
+  border: solid $black 1px;
+}
+
+.set-timer {
+  border-right: none;
+  border-left: none;
+}
+
+.set-break {
+  border-right: none;
+}
+
+.set-display {
+  color: $white;
+  font-size: $base-font-size*1.4;
+  padding-top: 10px;
+}
+.actions {
+  .minus-add {
+    font-size: $base-font-size*1.5;
+    display: flex;
+    padding: 0;
+    justify-content: center;
+    div {
+      cursor: pointer;
+      margin: 1px;
+      padding:  5px;
+      margin-bottom: 10px;
+      flex: .5;
+      &:hover {
+        color: $white;
+      }
+      &:active {
+        color: $lt-gray;
+      }
+    }
+  }
+}

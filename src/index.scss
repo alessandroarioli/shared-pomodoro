@@ -1,0 +1,14 @@
+@import url(https://fonts.googleapis.com/css?family=Oxygen|Rubik:300);
+$base-font: 'Rubik', Arial, sans-serif;
+$base-font-size: 12px;
+$white: #DADADB;
+$black: #18191d;
+$drk-gray: #1F2025;
+$lt-gray: #353741;
+$lt-green: #B8D087;
+$green: #00996D;
+$red: #ce3c1b;
+
+@import './App';
+@import 'src/components/Actions';
+@import 'src/components/Timer';
