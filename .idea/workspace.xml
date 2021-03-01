@@ -10,11 +10,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5e6c831-0aea-44cc-8ee4-07b92a74da39" name="Default Changelist" comment="">
+    <list default="true" id="a5e6c831-0aea-44cc-8ee4-07b92a74da39" name="Default Changelist" comment="Adding netlify-lambda">
+      <change afterPath="$PROJECT_DIR$/netlify.toml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,8 +126,16 @@
       <workItem from="1613991961658" duration="8000" />
       <workItem from="1614172201194" duration="2125000" />
       <workItem from="1614590005408" duration="1629000" />
-      <workItem from="1614609334877" duration="507000" />
+      <workItem from="1614609334877" duration="689000" />
     </task>
+    <task id="LOCAL-00001" summary="Adding netlify-lambda">
+      <created>1614609937007</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1614609937007</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,27 +153,39 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Adding netlify-lambda" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding netlify-lambda" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="602" y="235" key="#TypeScript" timestamp="1613742305445">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="602" y="235" key="#TypeScript/0.0.1792.1120@0.0.1792.1120" timestamp="1613742305445" />
-    <state width="1750" height="318" key="GridCell.Tab.0.bottom" timestamp="1613991938318">
+    <state x="609" y="369" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1614610074177">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="318" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1613991938318" />
-    <state width="1750" height="318" key="GridCell.Tab.0.center" timestamp="1613991938316">
+    <state x="609" y="369" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1792.1120@0.0.1792.1120" timestamp="1614610074177" />
+    <state x="100" y="100" width="1592" height="920" key="DiffContextDialog" timestamp="1614610088769">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="318" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1613991938316" />
-    <state width="1750" height="318" key="GridCell.Tab.0.left" timestamp="1613991938315">
+    <state x="100" y="100" width="1592" height="920" key="DiffContextDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1614610088769" />
+    <state width="1750" height="318" key="GridCell.Tab.0.bottom" timestamp="1614610036458">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="318" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1613991938315" />
-    <state width="1750" height="318" key="GridCell.Tab.0.right" timestamp="1613991938317">
+    <state width="1750" height="318" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1614610036458" />
+    <state width="1750" height="318" key="GridCell.Tab.0.center" timestamp="1614610036457">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="318" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1613991938317" />
+    <state width="1750" height="318" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1614610036457" />
+    <state width="1750" height="318" key="GridCell.Tab.0.left" timestamp="1614610036456">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="318" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1614610036456" />
+    <state width="1750" height="318" key="GridCell.Tab.0.right" timestamp="1614610036457">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="318" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1614610036457" />
     <state x="8" y="8" width="1776" height="1104" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1613768071361">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
