@@ -2,6 +2,7 @@ const http = require("http")
 const WebSocketServer = require('websocket').server;
 const path = require("path");
 const express = require("express");
+const serverless = require('serverless-http');
 
 const app = express(); // create express app
 
@@ -66,3 +67,5 @@ wsServer.on('request', function(request) {
 server.listen("8080", () => {
     console.log(`Server started on port ${server.address().port} :)`);
 });
+
+module.exports.handler = serverless(app);
