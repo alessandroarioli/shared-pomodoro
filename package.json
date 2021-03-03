@@ -24,7 +24,6 @@
   "scripts": {
     "start": "npm run build && (cd server && npm start)",
     "build": "react-scripts build",
-    "build-netlify": "netlify-lambda build server",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
