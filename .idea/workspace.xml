@@ -11,91 +11,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a5e6c831-0aea-44cc-8ee4-07b92a74da39" name="Default Changelist" comment="Adding netlify-lambda file necessary">
-      <change afterPath="$PROJECT_DIR$/.gitlab-ci.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/alarm-sounds/cow.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/alarm-sounds/cucu.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/logo192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/logo512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/css/main.7f0c2a69.chunk.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/css/main.7f0c2a69.chunk.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/js/2.c0ca12b7.chunk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/js/2.c0ca12b7.chunk.js.LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/js/2.c0ca12b7.chunk.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/js/3.6323a202.chunk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/js/3.6323a202.chunk.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/js/main.0f82ecc2.chunk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/js/main.0f82ecc2.chunk.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/js/runtime-main.5696e9a3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/js/runtime-main.5696e9a3.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netlify.toml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/@types/aws-lambda/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/@types/aws-lambda/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/@types/aws-lambda/common/api-gateway.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/@types/aws-lambda/common/cloudfront.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/@types/aws-lambda/handler.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/@types/aws-lambda/index.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/@types/aws-lambda/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/@types/aws-lambda/trigger/alb.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/@types/aws-lambda/trigger/api-gateway-authorizer.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/@types/aws-lambda/trigger/api-gateway-proxy.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/@types/aws-lambda/trigger/appsync-resolver.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/@types/aws-lambda/trigger/cloudformation-custom-resource.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/@types/aws-lambda/trigger/cloudfront-request.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/@types/aws-lambda/trigger/cloudfront-response.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/@types/aws-lambda/trigger/cloudwatch-events.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/@types/aws-lambda/trigger/cloudwatch-logs.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/@types/aws-lambda/trigger/codebuild-cloudwatch-state.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/@types/aws-lambda/trigger/codepipeline-cloudwatch-action.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/@types/aws-lambda/trigger/codepipeline-cloudwatch-pipeline.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/@types/aws-lambda/trigger/codepipeline-cloudwatch-stage.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/@types/aws-lambda/trigger/codepipeline-cloudwatch.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/@types/aws-lambda/trigger/codepipeline.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/@types/aws-lambda/trigger/cognito-user-pool-trigger/_common.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/@types/aws-lambda/trigger/cognito-user-pool-trigger/create-auth-challenge.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/@types/aws-lambda/trigger/cognito-user-pool-trigger/custom-message.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/@types/aws-lambda/trigger/cognito-user-pool-trigger/define-auth-challenge.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/@types/aws-lambda/trigger/cognito-user-pool-trigger/index.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/@types/aws-lambda/trigger/cognito-user-pool-trigger/post-authentication.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/@types/aws-lambda/trigger/cognito-user-pool-trigger/post-confirmation.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/@types/aws-lambda/trigger/cognito-user-pool-trigger/pre-authentication.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/@types/aws-lambda/trigger/cognito-user-pool-trigger/pre-signup.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/@types/aws-lambda/trigger/cognito-user-pool-trigger/pre-token-generation.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/@types/aws-lambda/trigger/cognito-user-pool-trigger/user-migration.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/@types/aws-lambda/trigger/cognito-user-pool-trigger/verify-auth-challenge-response.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/@types/aws-lambda/trigger/connect-contact-flow.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/@types/aws-lambda/trigger/dynamodb-stream.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/@types/aws-lambda/trigger/eventbridge.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/@types/aws-lambda/trigger/iot.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/@types/aws-lambda/trigger/kinesis-firehose-transformation.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/@types/aws-lambda/trigger/kinesis-stream.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/@types/aws-lambda/trigger/lex.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/@types/aws-lambda/trigger/msk.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/@types/aws-lambda/trigger/s3-batch.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/@types/aws-lambda/trigger/s3.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/@types/aws-lambda/trigger/ses.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/@types/aws-lambda/trigger/sns.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/@types/aws-lambda/trigger/sqs.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/d/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/d/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/es5-ext/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/es5-ext/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/es6-iterator/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/es6-iterator/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/es6-symbol/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/es6-symbol/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/ext/node_modules/type/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/ext/node_modules/type/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/ext/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/ext/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/is-typedarray/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/is-typedarray/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/next-tick/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/next-tick/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/serverless-http/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/serverless-http/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/serverless-http/lib/finish.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/serverless-http/lib/framework/get-framework.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/serverless-http/lib/provider/aws/clean-up-event.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/serverless-http/lib/provider/aws/create-request.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/serverless-http/lib/provider/aws/format-response.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/serverless-http/lib/provider/aws/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/serverless-http/lib/provider/aws/is-binary.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/serverless-http/lib/provider/aws/sanitize-headers.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/serverless-http/lib/provider/get-provider.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/serverless-http/lib/request.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/serverless-http/lib/response.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/serverless-http/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/serverless-http/serverless-http.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/serverless-http/serverless-http.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/type/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/type/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/typedarray-to-buffer/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/typedarray-to-buffer/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/websocket/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/websocket/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/yaeti/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/yaeti/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/server.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -214,7 +152,7 @@
       <workItem from="1613991961658" duration="8000" />
       <workItem from="1614172201194" duration="2125000" />
       <workItem from="1614590005408" duration="1629000" />
-      <workItem from="1614609334877" duration="3920000" />
+      <workItem from="1614609334877" duration="4693000" />
     </task>
     <task id="LOCAL-00001" summary="Adding netlify-lambda">
       <created>1614609937007</created>
@@ -290,6 +228,10 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="8" y="8" width="1776" height="1104" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1613768071361" />
+    <state x="100" y="100" width="1592" height="920" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog" timestamp="1614782624808">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="100" y="100" width="1592" height="920" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1614782624808" />
     <state x="694" y="481" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1613991256293">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>

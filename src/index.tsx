@@ -5,7 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {LMWebSocket} from "./logic/websocket/websocket";
 
-const webSocket = new LMWebSocket('ws://pomodoro-websocket.herokuapp.com')
+const webSocket = new LMWebSocket('ws://localhost:8080/')
 
 webSocket.listen()
 
